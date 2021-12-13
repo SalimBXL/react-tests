@@ -10,7 +10,7 @@ const WeekOfBoxes = ({ weekNumber, boxes }) => {
     ? Array.from({ length: 7 })
         .map((item, dayIndex) => {
           const key = weekNmbr + "-" + dayIndex;
-          return <Box key={key} tooltip={key} text={key} size={48} />;
+          return <Box key={key} />;
         })
         .filter((item, index) => index > 0 && index < 7)
     : boxes.map((item, dayIndex) => {
@@ -20,8 +20,10 @@ const WeekOfBoxes = ({ weekNumber, boxes }) => {
             key={key}
             tooltip={item.tooltip}
             text={item.text}
+            header={item.header}
             size={item.size}
             color={item.color}
+            textColor={item.textColor}
           />
         );
       });

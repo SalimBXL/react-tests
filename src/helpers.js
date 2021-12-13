@@ -8,4 +8,8 @@ const getWeekNumber = (date) => {
   return result;
 };
 
-export { getWeekNumber };
+const numberOfWeekInMonth = (year, month) => {
+  return 4;
+};
+
+export { getWeekNumber, numberOfWeekInMonth };

@@ -2,23 +2,25 @@ import React from "react";
 import "./Box.css";
 import PropTypes from "prop-types";
 
-const Box = ({ color, size, text, tooltip, header }) => {
+const Box = ({ color, textColor, size, text, tooltip, header }) => {
   const styleText = {
-    backgroundColor: !color ? "lightgrey" : color,
-    border: !color ? "1px solid grey" : "none",
+    margin: size / 5 + "px " + size / 5 + "px 0px 0px",
+    backgroundColor: color,
+    color: textColor,
     width: size + "px",
     height: size + "px",
     fontSize: size / 6 + "px"
   };
   const styleHeader = {
-    fontSize: size / 7 + "px"
+    fontSize: size / 7 + "px",
+    color: textColor
   };
 
   return (
     <div
       className="Box tooltip"
       style={styleText}
-      title={tooltip ? tooltip : text}
+      title={tooltip ? tooltip : header ? "(" + header + ")  " + text : text}
     >
       {header ? (
         <p className="Box-header" style={styleHeader}>
@@ -34,6 +36,7 @@ const Box = ({ color, size, text, tooltip, header }) => {
 
 Box.propTypes = {
   color: PropTypes.string,
+  textColor: PropTypes.string,
   size: PropTypes.number,
   text: PropTypes.string,
   tooltip: PropTypes.string,
@@ -42,6 +45,7 @@ Box.propTypes = {
 
 Box.defaultProps = {
   color: null,
+  textColor: "white",
   size: 16,
   text: "",
   tooltip: null,

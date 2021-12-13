@@ -1,0 +1,15 @@
+.Box {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Box-text {
+  color: white;
+  text-align: center;
+}
+
+.Box-header {
+  color: white;
+  text-align: left;
+}

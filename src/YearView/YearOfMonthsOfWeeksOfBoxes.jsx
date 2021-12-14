@@ -1,7 +1,7 @@
 import React from "react";
 import "./YearOfMonthsOfWeeksOfBoxes.css";
 import PropTypes from "prop-types";
-import MonthOfWeeksOfBoxes from "./MonthOfWeeksOfBoxes";
+import MonthOfWeeksOfBoxes from "../comon/MonthOfWeeksOfBoxes";
 
 const YearOfMonthsOfWeeksOfBoxes = ({ months }) => {
   const year = !months

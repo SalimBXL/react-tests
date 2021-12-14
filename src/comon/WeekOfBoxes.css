@@ -1,8 +1,10 @@
-.MonthOfWeeksOfBoxes {
+.WeekOfBoxes {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
   flex-direction: row;
+  /*flex-wrap: nowrap;*/
   padding: 0px 0px 0px 0px;
+  background-color: grey;
 }

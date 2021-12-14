@@ -1,7 +1,8 @@
 import React from "react";
+import "./WeekOfBoxes.css";
 import { getWeekNumber } from "./helpers";
 import PropTypes from "prop-types";
-import Box from "./Box";
+import Box from "./Box"
 
 const WeekOfBoxes = ({ weekNumber, boxes }) => {
   const weekNmbr = weekNumber ? weekNumber : getWeekNumber();
@@ -28,7 +29,7 @@ const WeekOfBoxes = ({ weekNumber, boxes }) => {
         );
       });
 
-  return <div>{squares}</div>;
+  return <div className="WeekOfBoxes">{squares}</div>;
 };
 
 WeekOfBoxes.propTypes = {

@@ -1,0 +1,17 @@
+{
+    "blockSize": {
+        "year": 12, 
+        "month": 72
+    },
+    "colors": [
+        { "code": "default", "color": "white", "textColor": "black" },
+        { "code": "job", "color": "royalblue", "textColor": "white" },
+        { "code": "absenceValid", "color": "limegreen", "textColor": "white" },
+        { "code": "absenceMission", "color": "gold", "textColor": "black" },
+        { "code": "absenceNonValid", "color": "greenyellow", "textColor": "green" },
+        { "code": "job2", "color": "lightskyeblue", "textColor": "black" },
+        { "code": "nonWorkingDay", "color": "grey", "textColor": "white" },
+        { "code": "weekend", "color": "lightgrey", "textColor": "black" },
+        { "code": "task", "color": "orange", "textColor": "maroon" }
+    ]
+}

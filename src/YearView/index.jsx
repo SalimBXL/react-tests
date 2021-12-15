@@ -6,49 +6,49 @@ const YearView = () => {
     const blockSize = 12;
   const bks = [
     [
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
       { text: "", color: "lightgrey", textColor: "black", size: blockSize }
     ],
     [
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "", color: "darkslategrey", size: blockSize },
-      { text: "", header: "Ca", color: "green", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "", color: "grey", size: blockSize },
+      { text: "", header: "Ca", color: "limegreen", size: blockSize },
       {
         text: "",
         header: "Mi",
-        color: "yellow",
+        color: "gold",
         textColor: "black",
         size: blockSize
       },
-      { text: "QC", color: "red", size: blockSize },
+      { text: "QC", color: "crimson", size: blockSize },
       { text: "", color: "lightgrey", textColor: "black", size: blockSize }
     ],
     [
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
       { text: "", color: "lightgrey", textColor: "black", size: blockSize }
     ],
     [
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
       { text: "", color: "lightgrey", textColor: "black", size: blockSize }
     ],
     [
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
-      { text: "5 FDG2", color: "blue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
+      { text: "5 FDG2", color: "royalblue", size: blockSize },
       { text: "", color: "lightgrey", textColor: "black", size: blockSize }
     ]
   ];

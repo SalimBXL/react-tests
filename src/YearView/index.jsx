@@ -3,7 +3,7 @@ import YearOfMonthsOfWeekOfBoxes from "./YearOfMonthsOfWeeksOfBoxes";
 
 const YearView = () => {
 
-    const blockSize = 12;
+    const blockSize = 8;
   const bks = [
     [
       { text: "5 FDG2", color: "royalblue", size: blockSize },

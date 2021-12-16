@@ -2,7 +2,7 @@ import React from "react";
 import MonthOfWeeksOfBoxes from "../comon/MonthOfWeeksOfBoxes";
 
 const MonthView = () => {
-    const blockSize = 72;
+    const blockSize = 64;
     
     const weeks = [
       [
